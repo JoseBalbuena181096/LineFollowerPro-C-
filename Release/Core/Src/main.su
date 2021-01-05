@@ -1,0 +1,27 @@
+main.cpp:235:6:void SystemClock_Config()	88	static
+main.cpp:377:1:Sensors_qtr::Sensors_qtr(ADC_HandleTypeDef*, GPIO_TypeDef*, uint16_t, uint16_t, uint16_t, uint16_t)	16	static
+main.cpp:391:5:int Sensors_qtr::read_adc()	16	static
+main.cpp:401:6:void Sensors_qtr::read_sensors_qtr()	24	static
+main.cpp:413:7:float Sensors_qtr::update_error()	120	static
+main.cpp:464:1:Motor_Driver::Motor_Driver(int, GPIO_TypeDef*, uint16_t, uint16_t, TIM_HandleTypeDef*, uint32_t)	8	static
+main.cpp:473:6:void Motor_Driver::init()	8	static
+main.cpp:479:6:void Motor_Driver::update_speed(int, bool)	16	static
+main.cpp:512:1:Control_PID::Control_PID(float, float, float)	0	static
+main.cpp:271:1:Line_Follower::Line_Follower()	16	static
+main.cpp:523:6:void Control_PID::set_tunings(float, float, float)	0	static
+main.cpp:530:6:void Control_PID::compute(float)	0	static
+main.cpp:545:1:ESC_Turbine::ESC_Turbine(TIM_HandleTypeDef*, uint32_t)	0	static
+main.cpp:551:6:void ESC_Turbine::init()	0	static
+main.cpp:556:6:void ESC_Turbine::update_speed(int)	0	static
+main.cpp:326:6:void Line_Follower::state_machine()	8	static
+main.cpp:567:6:void ESC_Turbine::calibrate()	8	static
+main.cpp:286:6:void Line_Follower::init()	8	static
+main.cpp:574:1:IR_NEC::IR_NEC(TIM_HandleTypeDef*, uint32_t)	8	static
+main.cpp:583:6:void IR_NEC::init()	8	static
+main.cpp:588:6:void IR_NEC::decode()	8	static
+main.cpp:627:6:void IR_NEC::restart()	8	static
+main.cpp:293:6:void Line_Follower::turn_on_off(IR_NEC*)	4	static
+main.cpp:185:5:int main()	8	static
+main.cpp:635:6:void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef*)	0	static
+main.cpp:648:6:void Error_Handler()	0	static
+main.cpp:654:1:cpp)	8	static
